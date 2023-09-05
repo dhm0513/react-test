@@ -1,0 +1,68 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Shop-cart-box{
+  position: relative;
+}
+.Header button {
+  cursor: pointer;
+}
+.Goods {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Good-item {
+  width: 250px;
+  margin: 8px 8px 0 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.Good-item img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 4px;
+  object-fit: contain;
+}
+.Good-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.Good-desc .name {
+  flex: 1;
+  margin-right: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Good-desc > div {
+  display: flex;
+  align-items: center;
+}
+.Good-desc button {
+  margin-left: 8px;
+}
+.Shop-cart-panel {
+  position: absolute;
+  width: 270px;
+  top: 24px;
+  right: 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.Shop-cart-panel .List-desc {
+  margin-bottom: 4px;
+}
+.Shop-cart-panel button {
+  width: 100%;
+}
+.Empty-word {
+  text-align: center;
+}
